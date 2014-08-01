@@ -1,3 +1,30 @@
+" 自动检测文件类型并加载相应的设置
+filetype plugin indent on
+autocmd FileType python setlocal et sta sw=4 sts=4
+"开启行数
+set nu
+"开启鼠标可用
+set mouse=a
+"开启语法加亮
+syntax on
+"配色风格
+colorscheme pablo
+"设定 Tab 键缩进的空格数
+set tabstop=4
+"设定编辑器将多少空格视为一个缩进
+set shiftwidth=4
+"将缩进转换为空格
+"set expandtab
+"设定自动缩进(新行与前一行缩进相同)
+set autoindent
+"命令行历史纪录
+set history=500
+"搜索时忽略大小写
+set ignorecase
+"高亮显示搜索结果
+set hlsearch
+
+
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
