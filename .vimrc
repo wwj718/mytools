@@ -78,3 +78,10 @@ map <F7> :NERDTreeToggle<CR>
 "给文件header
 let g:BHAUTHOR = wuwenjie <wuwenjie718@gmail.com>'
 let g:BHUnder = ['/tmp/']
+
+"使用ctrlp全局搜索文件
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip     " MacOSX/Linux
+set wildignore+=*\\tmp\\*,*.swp,*.zip,*.exe  " Windows
+let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$'
