@@ -15,6 +15,12 @@
 *  :PluginInstall
 *  将本库中的.vimrc拉取到本地 ~/
 
+##使用Valloric/YouCompleteMe
+*  sudo apt-get install build-essential cmake
+*  sudo apt-get install python-dev
+*  cd ~/.vim/bundle/YouCompleteMe
+*  ./install.sh --clang-completer
+
 ##动手用python写插件
 参看库中vimmit
 
