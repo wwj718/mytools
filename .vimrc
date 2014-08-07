@@ -40,6 +40,7 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'xiaket/better-header'
 Plugin 'kien/ctrlp.vim'
+Plugin 'bling/vim-airline'
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
 " plugin on GitHub repo
@@ -86,3 +87,8 @@ let g:ctrlp_cmd = 'CtrlP'
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip     " MacOSX/Linux
 set wildignore+=*\\tmp\\*,*.swp,*.zip,*.exe  " Windows
 let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$'
+
+"vim-airline
+"使用的话 输入air<tab> 看用法，theme改变主题
+let g:airline#extensions#tabline#enabled = 1
+
