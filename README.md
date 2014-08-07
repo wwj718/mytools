@@ -31,3 +31,5 @@
 ###使用插件
 *  :source vimmit.vim
 *  :call Reddit()
+
+###制作插件范例*  [better-header](https://github.com/xiaket/better-header)
