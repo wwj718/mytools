@@ -20,7 +20,7 @@
 *  sudo apt-get install build-essential cmake
 *  sudo apt-get install python-dev
 *  cd ~/.vim/bundle/YouCompleteMe
-*  ./install.sh --clang-completer
+*  ./install.sh (--clang-complete可选)
 
 ##动手用python写插件
 参看库中vimmit
