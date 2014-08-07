@@ -79,7 +79,7 @@ set number
 map <F7> :NERDTreeToggle<CR>
 
 "给文件header
-let g:BHAUTHOR = wuwenjie <wuwenjie718@gmail.com>'
+let g:BHAUTHOR = 'wuwenjie <wuwenjie718@gmail.com>'
 let g:BHUnder = ['/tmp/']
 
 "使用ctrlp全局搜索文件
