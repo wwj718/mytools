@@ -37,6 +37,8 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
+Plugin 'Valloric/YouCompleteMe'
+Plugin 'xiaket/better-header'
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
 " plugin on GitHub repo
@@ -72,3 +74,7 @@ filetype plugin indent on    " required
 set mouse=a
 set number
 map <F7> :NERDTreeToggle<CR>
+
+"给文件header
+let g:BHAUTHOR = wuwenjie <wuwenjie718@gmail.com>'
+let g:BHUnder = ['/tmp/']
