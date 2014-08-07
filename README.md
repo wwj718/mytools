@@ -25,6 +25,7 @@
 ##使用ctrlp
 *  https://github.com/kien/ctrlp.vim
 *  [资料](http://williamherry.com/blog/2012/08/25/master-vim-04-ctrlp/)
+
 ##动手用python写插件
 参看库中vimmit
 
@@ -35,4 +36,5 @@
 *  :source vimmit.vim
 *  :call Reddit()
 
-###制作插件范例*  [better-header](https://github.com/xiaket/better-header)
+###制作插件范例*  
+[better-header](https://github.com/xiaket/better-header)
