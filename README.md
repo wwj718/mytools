@@ -27,7 +27,7 @@
 *  [资料](http://williamherry.com/blog/2012/08/25/master-vim-04-ctrlp/)
 
 ##msanders/snipmate.vim
-我们只需编辑~/.vim/snippets/目录下的*.snippets文件就可以根据自己的要求自动产生代码。
+我们只需编辑~/.vim/bundle/snipmate.vim/snippets/ 目录下的*.snippets文件就可以根据自己的要求自动产生代码。
 
 ##动手用python写插件
 参看库中vimmit
