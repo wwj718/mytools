@@ -22,6 +22,9 @@
 *  cd ~/.vim/bundle/YouCompleteMe
 *  ./install.sh (--clang-complete可选)
 
+##使用ctrlp
+*  https://github.com/kien/ctrlp.vim
+*  [资料](http://williamherry.com/blog/2012/08/25/master-vim-04-ctrlp/)
 ##动手用python写插件
 参看库中vimmit
 
