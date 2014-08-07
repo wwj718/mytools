@@ -43,6 +43,7 @@ Plugin 'xiaket/better-header'
 Plugin 'kien/ctrlp.vim'
 Plugin 'bling/vim-airline'
 Plugin 'altercation/vim-colors-solarized'
+Plugin 'msanders/snipmate.vim'
 Plugin 'wwj718/vimForMyBlog'
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
