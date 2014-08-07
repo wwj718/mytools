@@ -16,6 +16,7 @@
 *  将本库中的.vimrc拉取到本地 ~/
 
 ##使用Valloric/YouCompleteMe
+*  使用Vundle安装'Valloric/YouCompleteMe'
 *  sudo apt-get install build-essential cmake
 *  sudo apt-get install python-dev
 *  cd ~/.vim/bundle/YouCompleteMe
