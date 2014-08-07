@@ -14,7 +14,7 @@ set tabstop=4
 "设定编辑器将多少空格视为一个缩进
 set shiftwidth=4
 "将缩进转换为空格
-"set expandtab
+set expandtab
 "设定自动缩进(新行与前一行缩进相同)
 set autoindent
 "命令行历史纪录
