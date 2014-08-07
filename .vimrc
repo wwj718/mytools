@@ -41,6 +41,7 @@ Plugin 'Valloric/YouCompleteMe'
 Plugin 'xiaket/better-header'
 Plugin 'kien/ctrlp.vim'
 Plugin 'bling/vim-airline'
+Plugin 'altercation/vim-colors-solarized'
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
 " plugin on GitHub repo
@@ -92,3 +93,8 @@ let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$'
 "使用的话 输入air<tab> 看用法，theme改变主题
 let g:airline#extensions#tabline#enabled = 1
 
+"vim-colors-solarized
+"colorscheme <tab>设置主题
+syntax enable
+set background=dark
+colorscheme solarized
