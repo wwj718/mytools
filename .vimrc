@@ -3,8 +3,8 @@ filetype plugin indent on
 autocmd FileType python setlocal et sta sw=4 sts=4
 "开启行数
 set nu
-"开启鼠标可用
-set mouse=a
+"开启鼠标可用,会导致无法复制，需要时临时开
+"set mouse=a
 "开启语法加亮
 syntax on
 "配色风格
@@ -77,7 +77,6 @@ filetype plugin indent on    " required
 "
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
-set mouse=a
 set number
 map <F7> :NERDTreeToggle<CR>
 
