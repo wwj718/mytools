@@ -38,7 +38,7 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
 "依赖较多，暂时不默认装
-Plugin 'Valloric/YouCompleteMe'
+"Plugin 'Valloric/YouCompleteMe'
 "Plugin 'xiaket/better-header'
 Plugin 'kien/ctrlp.vim'
 Plugin 'bling/vim-airline'
