@@ -45,6 +45,9 @@ Plugin 'bling/vim-airline'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'msanders/snipmate.vim'
 Plugin 'wwj718/vimForMyBlog'
+"快速跳转  \\w
+Plugin 'Lokaltog/vim-easymotion'
+
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
 " plugin on GitHub repo
