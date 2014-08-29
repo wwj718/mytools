@@ -44,6 +44,7 @@ Plugin 'kien/ctrlp.vim'
 Plugin 'bling/vim-airline'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'msanders/snipmate.vim'
+Plugin 'scrooloose/syntastic'
 Plugin 'wwj718/vimForMyBlog'
 "快速跳转  \\w
 Plugin 'Lokaltog/vim-easymotion'
