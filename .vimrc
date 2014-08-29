@@ -49,6 +49,8 @@ Plugin 'wwj718/vimForMyBlog'
 Plugin 'Lokaltog/vim-easymotion'
 "css颜色显示
 "Plugin 'skammer/vim-css-color'
+"vim git
+Plugin 'tpope/vim-fugitive'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
