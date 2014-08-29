@@ -54,7 +54,7 @@ Plugin 'Lokaltog/vim-easymotion'
 Plugin 'tpope/vim-fugitive'
 "注释\cc \cu
 Plugin 'scrooloose/nerdcommenter'
-自动补全ctrl \
+"自动补全ctrl \
 Plugin 'drmingdrmer/xptemplate'
 
 " The following are examples of different formats supported.
