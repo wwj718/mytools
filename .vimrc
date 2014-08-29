@@ -52,6 +52,8 @@ Plugin 'Lokaltog/vim-easymotion'
 "Plugin 'skammer/vim-css-color'
 "vim git
 Plugin 'tpope/vim-fugitive'
+"注释\cc \cu
+Plugin 'scrooloose/nerdcommenter'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
