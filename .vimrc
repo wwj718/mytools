@@ -60,6 +60,9 @@ Plugin 'drmingdrmer/xptemplate'
 Plugin 'majutsushi/tagbar'
 "python 补全
 Plugin 'davidhalter/jedi-vim'
+"Plugin 'kchmck/vim-coffee-script'
+
+
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
 " plugin on GitHub repo
