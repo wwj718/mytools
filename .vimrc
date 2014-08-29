@@ -39,7 +39,7 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
 "依赖较多，暂时不默认装
 "Plugin 'Valloric/YouCompleteMe'
-Plugin 'xiaket/better-header'
+"Plugin 'xiaket/better-header'
 Plugin 'kien/ctrlp.vim'
 Plugin 'bling/vim-airline'
 Plugin 'altercation/vim-colors-solarized'
@@ -91,8 +91,8 @@ set number
 map <F7> :NERDTreeToggle<CR>
 
 "给文件header
-let g:BHAUTHOR = 'wuwenjie <wuwenjie718@gmail.com>'
-let g:BHUnder = ['/tmp/']
+"let g:BHAUTHOR = 'wuwenjie <wuwenjie718@gmail.com>'
+"let g:BHUnder = ['/tmp/']
 
 "使用ctrlp全局搜索文件
 let g:ctrlp_map = '<c-p>'
