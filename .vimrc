@@ -38,7 +38,7 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
 "依赖较多，暂时不默认装
-"Plugin 'Valloric/YouCompleteMe'
+Plugin 'Valloric/YouCompleteMe'
 "Plugin 'xiaket/better-header'
 Plugin 'kien/ctrlp.vim'
 Plugin 'bling/vim-airline'
@@ -54,6 +54,8 @@ Plugin 'Lokaltog/vim-easymotion'
 Plugin 'tpope/vim-fugitive'
 "注释\cc \cu
 Plugin 'scrooloose/nerdcommenter'
+自动补全ctrl \
+Plugin 'drmingdrmer/xptemplate'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
