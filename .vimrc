@@ -58,7 +58,8 @@ Plugin 'scrooloose/nerdcommenter'
 Plugin 'drmingdrmer/xptemplate'
 "需要ctags
 Plugin 'majutsushi/tagbar'
-
+"python 补全
+Plugin 'davidhalter/jedi-vim'
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
 " plugin on GitHub repo
