@@ -56,6 +56,7 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'scrooloose/nerdcommenter'
 "自动补全ctrl \
 Plugin 'drmingdrmer/xptemplate'
+Plugin 'majutsushi/tagbar'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
@@ -114,3 +115,6 @@ let g:airline_powerline_fonts = 1
 syntax enable
 set background=dark
 colorscheme solarized
+
+"Tagbar
+nmap <silent> <F4> :TagbarToggle<CR>
