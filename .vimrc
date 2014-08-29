@@ -56,6 +56,7 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'scrooloose/nerdcommenter'
 "自动补全ctrl \
 Plugin 'drmingdrmer/xptemplate'
+"需要ctags
 Plugin 'majutsushi/tagbar'
 
 " The following are examples of different formats supported.
