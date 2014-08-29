@@ -94,6 +94,7 @@ let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$'
 "vim-airline
 "使用的话 输入air<tab> 看用法，theme改变主题
 let g:airline#extensions#tabline#enabled = 1
+let g:airline_theme = "kalisi"
 
 "vim-colors-solarized
 "colorscheme <tab>设置主题
