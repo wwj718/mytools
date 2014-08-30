@@ -60,6 +60,8 @@ Plugin 'drmingdrmer/xptemplate'
 Plugin 'majutsushi/tagbar'
 "python 补全
 Plugin 'davidhalter/jedi-vim'
+"远程协作，需要pip依赖
+Plugin 'FredKSchott/CoVim'
 "Plugin 'kchmck/vim-coffee-script'
 
 
