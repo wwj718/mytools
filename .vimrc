@@ -61,8 +61,10 @@ Plugin 'majutsushi/tagbar'
 "python 补全
 Plugin 'davidhalter/jedi-vim'
 "远程协作，需要pip依赖
-Plugin 'FredKSchott/CoVim'
+"Plugin 'FredKSchott/CoVim'
 "Plugin 'kchmck/vim-coffee-script'
+"类似sublime多选  ctrl n/p
+Plugin 'terryma/vim-multiple-cursors'
 
 
 " The following are examples of different formats supported.
