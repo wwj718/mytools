@@ -127,3 +127,8 @@ colorscheme solarized
 
 "Tagbar
 nmap <silent> <F4> :TagbarToggle<CR>
+
+
+"检测文件类型
+"用来定制snippet，后缀为wwj
+126 au BufNewFile,BufRead *.wwj    setf wwj
