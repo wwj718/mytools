@@ -12,6 +12,7 @@
 '''
 
 from fabric.api import local,lcd,settings,prefix
+import sys
 #结合sh使用，用python来获取系统数据
 
 ######settings######
@@ -61,6 +62,8 @@ def edxIpython():
     """docstring for edxIpython"""
     local("sudo -u www-data /edx/bin/python.edxapp /edx/app/edxapp/edx-platform/manage.py lms --settings aws shell")
 
-def edxLog():
+def edxLmsLog():
     """docstring for edxLog"""
-    
+    local("vim /edx/var/log/lms/edx.log")
+def edxCmsLog():
+    local("vim /edx/var/log/cms/edx.log")
