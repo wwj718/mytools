@@ -1,0 +1,5 @@
+#coding:utf-8
+#查看安装包状态，下载量等等
+#pypi stat django
+pypi-cli 
+
