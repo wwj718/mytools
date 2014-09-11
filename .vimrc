@@ -65,6 +65,9 @@ Plugin 'davidhalter/jedi-vim'
 "Plugin 'kchmck/vim-coffee-script'
 "类似sublime多选  ctrl n/p
 Plugin 'terryma/vim-multiple-cursors'
+"对齐线
+Plugin "vim-indent-guides"
+
 
 
 " The following are examples of different formats supported.
