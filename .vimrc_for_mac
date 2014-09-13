@@ -126,7 +126,10 @@ let g:airline_powerline_fonts = 1
 "colorscheme <tab>设置主题
 syntax enable
 set background=dark
-colorscheme solarized
+"colorscheme default
+let g:solarized_termcolors=256
+let g:solarized_termtrans=1
+colorschem solarized
 
 "Tagbar
 nmap <silent> <F4> :TagbarToggle<CR>
@@ -134,4 +137,3 @@ nmap <silent> <F4> :TagbarToggle<CR>
 
 "检测文件类型
 "用来定制snippet，后缀为wwj
-"au BufNewFile,BufRead *.wwj setf wwj
