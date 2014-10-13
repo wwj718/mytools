@@ -66,7 +66,7 @@ Plugin 'davidhalter/jedi-vim'
 "类似sublime多选  ctrl n/p
 Plugin 'terryma/vim-multiple-cursors'
 "对齐线
-Plugin 'vim-indent-guides'
+Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'pangloss/vim-javascript'
 
 
