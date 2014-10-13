@@ -136,3 +136,6 @@ nmap <silent> <F4> :TagbarToggle<CR>
 "检测文件类型
 "用来定制snippet，后缀为wwj
 "au BufNewFile,BufRead *.wwj setf wwj
+
+"语法检查，打开文件就开启
+let g:syntastic_check_on_open = 1
