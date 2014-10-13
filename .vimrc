@@ -67,6 +67,7 @@ Plugin 'davidhalter/jedi-vim'
 Plugin 'terryma/vim-multiple-cursors'
 "对齐线
 Plugin 'vim-indent-guides'
+Plugin 'pangloss/vim-javascript'
 
 
 
