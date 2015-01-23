@@ -24,6 +24,8 @@ set history=500
 set ignorecase
 "高亮显示搜索结果
 set hlsearch
+"代码折叠
+set foldmethod=indent
 
 
 set nocompatible              " be iMproved, required
