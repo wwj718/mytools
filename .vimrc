@@ -4,7 +4,8 @@ autocmd FileType python setlocal et sta sw=4 sts=4
 "开启行数
 set nu
 "开启鼠标可用,会导致无法复制，需要时临时开
-"set mouse=a
+"注意模式会变 vim会提示
+set mouse=nv
 "开启语法加亮
 syntax on
 "配色风格
