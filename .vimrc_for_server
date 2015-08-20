@@ -191,15 +191,15 @@ endfun
 autocmd FileType c,cpp,java,go,php,javascript,puppet,python,rust,twig,xml,yml,perl autocmd BufWritePre <buffer> :call <SID>StripTrailingWhitespaces()
 
 "<wwj>
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-Plugin 'scrooloose/nerdtree'
-Plugin 'davidhalter/jedi-vim'
-Plugin 'scrooloose/syntastic'
-Plugin 'msanders/snipmate.vim'
-Plugin 'mattn/emmet-vim'
-call vundle#end()            " required
-filetype plugin indent on    " required
+"set rtp+=~/.vim/bundle/Vundle.vim
+"call vundle#begin()
+"Plugin 'scrooloose/nerdtree'
+"Plugin 'davidhalter/jedi-vim'
+"Plugin 'scrooloose/syntastic'
+"Plugin 'msanders/snipmate.vim'
+"Plugin 'mattn/emmet-vim'
+"call vundle#end()            " required
+"filetype plugin indent on    " required
 "</wwj>
 
 "<wwj>
