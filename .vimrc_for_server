@@ -205,3 +205,6 @@ autocmd FileType c,cpp,java,go,php,javascript,puppet,python,rust,twig,xml,yml,pe
 "<wwj>
 map <F7> :NERDTreeToggle<CR>
 "</wwj>
+
+" F10 to run python script
+nnoremap <buffer> <F10> :exec '!python' shellescape(@%, 1)<cr>
