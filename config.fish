@@ -17,3 +17,5 @@ export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"
 
 setenv PATH "$HOME/.pyenv/bin" $PATH
 eval (pyenv init - fish)
+# pip install pygments
+alias cat='pygmentize -O style=monokai -f console256 -g'
