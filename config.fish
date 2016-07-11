@@ -15,7 +15,8 @@ alias vi="vim"
 export GOPATH=$HOME
 export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"
 
-setenv PATH "$HOME/.pyenv/bin" $PATH
+setenv PATH "$HOME/.pyenv/bin" $PATH # 这样会短路后边的选项
 eval (pyenv init - fish)
 # pip install pygments
 alias cat='pygmentize -O style=monokai -f console256 -g'
+alias addgitignore='wget https://raw.githubusercontent.com/github/gitignore/master/Python.gitignore -O .gitignore'
