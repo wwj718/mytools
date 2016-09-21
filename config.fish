@@ -20,3 +20,4 @@ eval (pyenv init - fish)
 # pip install pygments
 alias cat='pygmentize -O style=monokai -f console256 -g'
 alias addgitignore='wget https://raw.githubusercontent.com/github/gitignore/master/Python.gitignore -O .gitignore'
+alias unicode='echo from __future__ import unicode_literals'
