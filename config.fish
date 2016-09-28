@@ -9,6 +9,7 @@ source $OMF_PATH/init.fish
 
 alias penv='source ~/env/bin/activate.fish'
 
+#bash时 .bashrc 之后source
 . /Users/wwj/z-fish/z.fish
 alias vi="vim"
 #for go by wwj
